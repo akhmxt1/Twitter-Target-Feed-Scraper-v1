@@ -1,8 +1,8 @@
 # Twitter Target Feed Scraper using Selenium
 
-If you have used my [Twitter-Search-Results-Scraper-v1](https://github.com/akhmxt1/Twitter-Search-Results-Scraper-v1?tab=readme-ov-file), this follows almost the same logic under the hood. However, there is some variation that you need to consider. I have left detailed instructions within the code to make things easy. 
+If you have used my [Twitter-Search-Results-Scraper-v1](https://github.com/akhmxt1/Twitter-Search-Results-Scraper-v1?tab=readme-ov-file), this follows almost the same logic under the hood. However, there is some variation that you need to consider. I have left detailed instructions within the code to make things easy. This script will open Chrome, log into Twitter, search for the target account (in my case ANI news), go to the "People" tab, select the account, scroll down the feed, and save the tweets in an Excel sheet. 
 
-**Requirement:** Basic knowledge of python. Don't hesitate to play around, if you don't play you won't learn.
+**Requirement:** Basic knowledge of Python. Don't hesitate to play around, if you don't play you won't learn.
 
 **NOTE:** If the Chrome driver/Selenium Web Driver reaches a point where it keeps "retrying" but can't move further, just close the Chrome window and it will save the progress. Twitter has severely limited the ability to scroll things even manually.
 
@@ -68,7 +68,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 ## Features
 
 - Automates login to Twitter
-- Searches for specific topics and collects tweets
+- Searches for specific account and collect tweets
 - Saves collected data in an Excel file
 
 ## Contributing
