@@ -6,6 +6,8 @@ If you have used my [Twitter-Search-Results-Scraper-v1](https://github.com/akhmx
 
 **NOTE:** If the Chrome driver/Selenium Web Driver reaches a point where it keeps "retrying" but can't move further, just close the Chrome window and it will save the progress. Twitter has severely limited the ability to scroll things even manually.
 
+**Addendum:** Before you proceed, please make sure to use a throwaway account while using this script. Also, do not enable two-factor authentication (2FA) as this code was not written to take that into consideration. Moreover, TOTPs change every minute.
+
 ## Table of Contents
 
 - [Installation & Setup](#installation--setup)
